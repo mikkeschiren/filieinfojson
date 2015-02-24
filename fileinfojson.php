@@ -11,26 +11,8 @@ $targetdir = '/srv/www/backupinfo';
 
 // Defined paths for which backups we should have json-files created
 $paths = array(
-  'lndbsolr01' => '/backup/lndbsolr01/srv',
-  'node-host-6' => '/backup/node-host-6/srv',
-  'orange1' => '/backup/orange1/srv',
-  'orange2' => '/backup/orange2/srv',
-  'orange6' => '/backup/orange6/srv',
-  'orange7' => '/backup/orange7/srv',
-  'orange8' => '/backup/orange8/srv',
-  'orange9' => '/backup/orange9/srv',
-  'orange11' => '/backup/orange11/srv',
-  'orange12' => '/backup/orange12/srv',
-  'orange14' => '/backup/orange14/srv',
-  'orange17' => '/backup/orange17/srv',
-  'orange18' => '/backup/orange18/srv',
-  'orange20' => '/backup/orange20/srv',
-  'orange21' => '/backup/orange21/srv',
-  'pink1' => '/backup/pink1/srv',
-  'pink5' => '/backup/pink5/srv',
-  'unionen' => '/backup/unionen',
-  'vfdb01' => '/backup/vfdb01/srv',
-  'vps-56600' => '/backup/vps-56600/mysqldump'
+  'name1' => '/backup/mysite/mysql',
+  'name2' => '/backup/othersite/db',
 );
 
 // This I dont want to list
