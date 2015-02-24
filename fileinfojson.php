@@ -39,7 +39,7 @@ foreach ($paths as $key => $path) {
           // Get size of file in MB, and round it up
           $filesize = round(($file->getSize() / 1048576) / 2);
           // Get when the filed were touched the last time
-          $touched = date('Y-m-d H:m', $file->getATime());
+          $touched = date('Y-m-d H:m', $file->getMTime());
           // Construct an array of info
           $fileinfo[] = array(
             'file' => "$file",
