@@ -21,7 +21,7 @@ $dontlist = array(
   'all_database.sql',
   'mysql.sql',
   'information_schema.sql',
-  'test.sql'
+  'test.sql',
 );
 
 // End of configuration.
